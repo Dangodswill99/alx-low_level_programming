@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - receives no arguement
+ * main - get and random number check its last digit and compare it with 5
  *
  * Return: Always 0 (success)
  */
-int main(void)
+iint main(void)
 {
 
 	int n;
