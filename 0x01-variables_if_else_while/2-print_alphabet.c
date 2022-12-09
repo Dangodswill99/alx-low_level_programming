@@ -1,20 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - main block
- * description: get a random number with 5
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success/correct)
  */
-
 int main(void)
 {
-	char c = 'a';
-
-	while (c <= '2')
+	char sam;
+	for (sam = 'a'; sam <= 'z'; sam++)
 	{
-		putchar(c);
-		c++;
+		putchar(sam);
 	}
 	putchar('\n');
 	return (0);
