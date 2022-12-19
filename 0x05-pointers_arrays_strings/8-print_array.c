@@ -5,6 +5,7 @@
  * @n: int to check
  * Return: 0 is success
  */
+
 void print_array(int *a, int n)
 {
 	int x;
@@ -14,5 +15,5 @@ void print_array(int *a, int n)
 		printf("%d, ", a[x]);
 		else
 			printf("%d", a[x]);
-printf("\n");
+			printf("\n");
 }
